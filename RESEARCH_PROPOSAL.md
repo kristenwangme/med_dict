@@ -239,7 +239,7 @@ Each summary letter will be rated on five dimensions using a 5-point Likert scal
 |-----------|-----------|---------------|
 | Accuracy | All medical facts in the summary are correct and consistent with the original clinical note | 1 = Major factual errors present; 5 = Fully accurate |
 | Completeness | All clinically important information from the note is represented in the summary | 1 = Critical information missing; 5 = Fully complete |
-| Clinical Safety | The summary contains no information that could lead to patient harm if acted upon | 1 = Potentially harmful content present; 5 = Fully safe |
+| Hallucination | Contains information not supported by the original clinical note | 1 = Extensive hallucination; 5 = No hallucination |
 | Appropriate Simplification | Medical concepts are simplified without losing essential clinical meaning | 1 = Distorted or oversimplified; 5 = Optimally simplified |
 | Overall Quality | Global assessment of the summary as a patient communication tool | 1 = Unacceptable for patient use; 5 = Excellent |
 
